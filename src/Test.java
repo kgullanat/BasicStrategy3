@@ -5,6 +5,7 @@ public class Test {
 		System.out.println("----MallardDuck-----");
 		MallardDuck md = new MallardDuck();
 		md.setQuackBehavior(new Squack());
+		md.setFlybehavior(new FlyWithRock());
 		md.display();//Look like a mallard
 		md.performQuack();//Quack! Quack!
 		md.performFly();//I'm flying with wing
